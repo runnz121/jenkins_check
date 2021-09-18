@@ -49,7 +49,7 @@ pipeline {
         }
 
         stage('git_push'){
-          steops {
+          steps {
             echo 'git push'
 
             
