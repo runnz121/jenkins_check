@@ -28,7 +28,7 @@ pipeline {
 
                 git url: 'https://github.com/runnz121/jenkins_check.git',
                     branch: 'main',
-                    credentialsId: 'jenkins_credential_test' //jenkins 토큰 등록했던 ID 입력
+                    credentialsId: 'jenkins_test' //jenkins 토큰 등록했던 ID 입력
             }
             //step 이 완료되면 추후실행되는 명령어
             post {
@@ -55,7 +55,7 @@ pipeline {
             
             git url: 'https://github.com/runnz121/jenkins_check.git',
                 branch: 'main',
-                credentialsId: 'jenkins_credential_test' 
+                credentialsId: 'jenkins_test' 
             }
 
             post {
